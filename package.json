@@ -5,5 +5,20 @@
   "main": "index.js",
   "author": "azerckid@gmail.com",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "core-js": "2",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  }
 }
